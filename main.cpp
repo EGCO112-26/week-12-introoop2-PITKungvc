@@ -10,18 +10,18 @@ int main(int argc, char* argv[]) {
     return 1;
   }
 
-  student s1,s2;
+//   student s1,s2;
 
- s1.set_name("Amy"); s1.set_age(20);
- s2.set_name("James");
- s2.set_age(17);
- if (s1.get_age() > s2.get_age()) {
-   s1.print_name();
-   cout << "is older" << endl;
- } else {
-   s2.print_name();
-   cout << "is older" << endl;
- }
+//  s1.set_name("Amy"); s1.set_age(20);
+//  s2.set_name("James");
+//  s2.set_age(17);
+//  if (s1.get_age() > s2.get_age()) {
+//    s1.print_name();
+//    cout << "is older" << endl;
+//  } else {
+//    s2.print_name();
+//    cout << "is older" << endl;
+//  }
 
 
   student a[N];
@@ -40,10 +40,10 @@ int main(int argc, char* argv[]) {
   }
 
   //2. Print name and age of all N ppl
-  for(i = 0; i < N; i++) {
-    a[i].print_name();
-    cout << "Age: " << a[i].get_age() << endl;
-  }
+  // for(i = 0; i < N; i++) {
+  //   a[i].print_name();
+  //   cout << "Age: " << a[i].get_age() << endl;
+  // }
   
   
   
