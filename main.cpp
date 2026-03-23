@@ -50,7 +50,7 @@ int main(int argc, char* argv[]) {
   //3. Print All name and age of 
   //the youngest person
   //Find what the age of the youngest person
-  printf("The youngest person is: \n");
+  printf("Youngest student\n");
   int min_index = 0;
   for(i = 1; i < N; i++) {
     if(a[i].get_age() <= a[min_index].get_age()) {
